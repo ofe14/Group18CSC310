@@ -1,0 +1,213 @@
+body
+{
+    color: white;
+    background-image: url("cd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.pic
+{
+    border: 2px solid white;
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.wrapper
+{
+    display: inline-block;
+}
+.container
+{
+    background-color:transparent;
+    width: 1100px;
+    height: 700px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mem1
+{
+    width: 250px;
+    height:200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mem2
+{
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mem3
+{
+    
+    width: 250px;
+    height:200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mem4
+{
+    
+    width: 250px;
+    height:200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mem5
+{
+    
+    width: 250px;
+    height:200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mem6
+{
+    
+    width: 250px;
+    height:200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mem7
+{
+    width: 250px;
+    height:200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.label
+{
+    margin-left: 10px;
+}
+img
+{
+    width: 100%;
+    height: 100%;
+}
+button
+{
+    color: white;
+    background-color: transparent;
+    height: 70px;
+    width: 160px;
+    border-radius: 25px;
+    border: 5px solid white;
+    font-weight: 400;
+    font-size: 20px;
+}
+button:hover
+{
+    background-color: antiquewhite;
+    color: black;
+}
+@media screen and (max-device-width:1104px)
+{
+    body
+{
+    color: white;
+    background-image: url("light.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.pic
+{
+    border: 2px solid white;
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    border-radius: 10px;
+}
+.wrapper
+{
+    display: flex;
+}
+.container
+{
+    background-color:transparent;
+    width: 1100px;
+    height: 700px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mem1
+{
+    border: 2px solid white;
+    width: 250px;
+    height:200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mem2
+{
+    border: 2px solid white;
+    width: 250px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mem3
+{
+    border: 2px solid white;
+    width: 250px;
+    height:200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mem4
+{
+    border: 2px solid white;
+    width: 250px;
+    height:200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mem5
+{
+    border: 2px solid white;
+    width: 250px;
+    height:200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mem6
+{
+    border: 2px solid white;
+    width: 250px;
+    height:200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.mem7
+{
+    border: 2px solid white;
+    width: 250px;
+    height:200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.label
+{
+    margin-left: 10px;
+}
+img
+{
+    width: 100%;
+    width: 100%;
+}
+}

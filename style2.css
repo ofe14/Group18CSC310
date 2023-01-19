@@ -1,0 +1,145 @@
+body
+{
+    background-image: url("grad.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.wrapper
+{
+    display: inline-block;
+}
+.container
+{
+    line-height: 500px;
+    background-color:transparent;
+    width: 700px;
+    height: 500px;
+    justify-content: center;
+}
+button
+{
+    color: white;
+    background-color: transparent;
+    height: 100px;
+    width: 300px;
+    border-radius: 25px;
+    border: 5px solid white;
+    font-weight: 400;
+    font-size: 20px;
+}
+button:hover
+{
+    background-color: rgb(195, 182, 182);
+    color: black;
+    height: 105px;
+    width: 305px;
+}
+h1
+{
+    line-height: 200px;
+}
+h2{
+    font-size: 50px;
+}
+@media screen and (max-device-width:720px)
+{
+    body
+    {
+        background-image: url("black.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .wrapper
+    {
+        display: inline-block;
+    }
+    .container
+    {
+        background-color:transparent;
+        width: 500px;
+        height: 300px;
+        justify-content: center;
+    }
+    button
+    {
+        color: white;
+        background-color: transparent;
+        height: 70px;
+        width: 150px;
+        border-radius: 25px;
+        border: 2px solid white;
+    }
+    button:hover
+    {
+        background-color: rgb(195, 182, 182);
+        color: black;
+        height: 85px;
+        width: 175px;
+    }
+    h1
+    {
+        margin: auto;
+        line-height: 200px;
+    }
+    h2{
+        font-size: 50px;
+    } 
+    @media screen and (max-device-width:590px)
+    {
+        body
+        {
+            background-image: url("black.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .wrapper
+        {
+            display: inline-block;
+        }
+        .container
+        {
+            background-color:transparent;
+            width: 200px;
+            height: 500px;
+            justify-content: center;
+            display: inline;
+        }
+        button
+        {
+            color: white;
+            background-color: transparent;
+            height: 70px;
+            width: 150px;
+            border-radius: 25px;
+            border: 2px solid white;
+        }
+        button:hover
+        {
+            background-color: rgb(195, 182, 182);
+            color: black;
+            height: 85px;
+            width: 175px;
+        }
+        h1
+        {
+            margin: auto;
+            line-height: 200px;
+        }
+        h2{
+            font-size: 50px;
+        } 
+    }
+}
