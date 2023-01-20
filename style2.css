@@ -16,7 +16,7 @@ body
 }
 .container
 {
-    line-height: 500px;
+    line-height: 300px;
     background-color:transparent;
     width: 700px;
     height: 500px;
@@ -32,10 +32,11 @@ button
     border: 5px solid white;
     font-weight: 400;
     font-size: 20px;
+    animation: text 3s 1;
 }
 button:hover
 {
-    background-color: rgb(195, 182, 182);
+    background-image: linear-gradient(to bottom right,rgb(150, 61, 101),rgb(11, 11, 4));
     color: black;
     height: 105px;
     width: 305px;
@@ -43,9 +44,22 @@ button:hover
 h1
 {
     line-height: 200px;
+    font-size: 40px;
+    animation: text 3s 1;
+
 }
+
 h2{
     font-size: 50px;
+    animation: text 3s 1;
+}
+@keyframes text
+{
+    0%
+    {
+        color: transparent;
+        margin-bottom: -40px;
+    }
 }
 @media screen and (max-device-width:720px)
 {

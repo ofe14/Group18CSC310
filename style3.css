@@ -19,6 +19,7 @@ body
     margin: 2px;
     border-radius: 10px;
     display: inline-block;
+    animation:text 3s 1;
 }
 .wrapper
 {
@@ -39,6 +40,7 @@ body
     height:200px;
     margin: 10px;
     border-radius: 10px;
+    animation:text 2s 1;
 }
 .mem2
 {
@@ -46,6 +48,7 @@ body
     height: 200px;
     margin: 10px;
     border-radius: 10px;
+    animation:text 2s 1;
 }
 .mem3
 {
@@ -54,6 +57,7 @@ body
     height:200px;
     margin: 10px;
     border-radius: 10px;
+    animation:text 2s 1;
 }
 .mem4
 {
@@ -62,6 +66,7 @@ body
     height:200px;
     margin: 10px;
     border-radius: 10px;
+    animation:text 2s 1;
 }
 .mem5
 {
@@ -70,6 +75,7 @@ body
     height:200px;
     margin: 10px;
     border-radius: 10px;
+    animation:text 2s 1;
 }
 .mem6
 {
@@ -78,6 +84,7 @@ body
     height:200px;
     margin: 10px;
     border-radius: 10px;
+    animation:text 2s 1;
 }
 .mem7
 {
@@ -85,6 +92,7 @@ body
     height:200px;
     margin: 10px;
     border-radius: 10px;
+    animation: 2s 1;
 }
 .label
 {
@@ -105,11 +113,20 @@ button
     border: 5px solid white;
     font-weight: 400;
     font-size: 20px;
+    animation:text 2s 1;
 }
 button:hover
 {
     background-color: antiquewhite;
     color: black;
+}
+@keyframes text
+{
+    0%
+    {
+        color: transparent;
+        margin-bottom: -40px;
+    }
 }
 @media screen and (max-device-width:1104px)
 {
